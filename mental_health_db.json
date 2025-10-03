@@ -1,0 +1,43 @@
+[
+  {
+    
+    "scores": [
+      {
+        "day": "Mon",
+        "mood": 7
+      },
+      {
+        "day": "Tue",
+        "mood": 6
+      },
+      {
+        "day": "Wed",
+        "mood": 8
+      },
+      {
+        "day": "Thu",
+        "mood": 5
+      },
+      {
+        "day": "Fri",
+        "mood": 7
+      },
+      {
+        "day": "Sat",
+        "mood": 6
+      },
+      {
+        "day": "Sun",
+        "mood": 9
+      }
+    ],
+    "todayScore": {
+      "anger": 2,
+      "grief": 1,
+      "joy": 6,
+      "fear": 3,
+      "surprise": 4,
+      "sadness": 2
+    }
+  }
+]
