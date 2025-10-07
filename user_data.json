@@ -1,8 +1,0 @@
-{
-  "entries": [
-    { "id": 1, "userId": 1, "title": "A Great Day at the Park", "content": "The weather was perfect and I had a lovely walk with the dog. It felt great to be outside in the sun.", "date": "2025-10-02", "mood": "happy" },
-    { "id": 2, "userId": 1, "title": "Finished a big project", "content": "Finally completed the report after weeks of hard work. Feeling a huge sense of relief and accomplishment.", "date": "2025-10-01", "mood": "calm" },
-    { "id": 3, "userId": 1, "title": "Just a regular Tuesday", "content": "Work was steady, went to the gym, and made a nice dinner. Nothing special, but a solid day.", "date": "2025-09-30", "mood": "okay" },
-    { "id": 4, "userId": 1, "title": "Feeling a bit down", "content": "Missing my friends who live far away. We had a video call but it's not the same.", "date": "2025-09-29", "mood": "sad" }
-  ]
-}
