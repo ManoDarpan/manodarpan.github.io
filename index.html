@@ -6,6 +6,22 @@
     <title>ManoDarpan</title>
     <link rel="icon" type="image/x-icon" href="./assets/logo.png">
     <script type="module" crossorigin src="/assets/index-B-Xu5FhR.js"></script>
+
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#1976D2">
+<link rel="icon" href="/assets/icons/icon-192.png">
+
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("/service-worker.js")
+        .then(reg => console.log("Service Worker registered:", reg.scope))
+        .catch(err => console.error("Service Worker registration failed:", err));
+    });
+  }
+</script>
+
+
     <link rel="stylesheet" crossorigin href="/assets/index-y0wA9oAc.css">
   </head>
   <body>
