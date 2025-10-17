@@ -12,10 +12,14 @@ self.addEventListener("install", event => {
 
 // Fetch requests
 self.addEventListener("fetch", event => {
+  // Ignore requests to Google's domains
+  if (event.request.url.startsWith('https://accounts.google.com')) {
+    return;
+  }
+
   event.respondWith(
-    caches.match(event.request).then(response => {
-      // Return cached version or fetch from network
-      return response || fetch(event.request);
+    fetch(event.request).catch(() => {
+      return caches.match(event.request);
     })
   );
 });
