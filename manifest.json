@@ -2,7 +2,7 @@
   "name": "Manodarpan",
   "short_name": "Manodarpan",
   "id": "/?source=pwa",
-  "start_url": "\"start_url\"=\"https://manodarpan.netlify.app\"",
+  "start_url": "https://manodarpan.netlify.app",
   "scope": "/",
   "display": "fullscreen",
   "orientation": "portrait",
